@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Juliana Elesinmogun – IT & Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Juliana Elesinmogun</h1>
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- HOME SECTION -->
+    <section id="home" class="card home-section">
+      <div class="home-content">
+
+        <div class="home-text">
+          <h2>Welcome to My Portfolio</h2>
+          <p>
+            Hello! I’m <strong>Juliana Elesinmogun</strong>, an aspiring IT and Cybersecurity
+            professional studying Computer Technology with a concentration in Internet Technology &amp; Web Services
+            at Bowie State University.
+          </p>
+          <p>
+            This portfolio highlights my skills, projects, coursework, and professional experience—
+            including AWS cloud security work with Tenable.
+          </p>
+        </div>
+
+        <div class="home-photo">
+          <!-- Your photo -->
+          <img src="images/julianaphoto.JPG" alt="Photo of Juliana Elesinmogun">
+        </div>
+
+        <div class="home-qr">
+          <h3>Scan to Open This Portfolio</h3>
+
+          <!-- STEP 2: QR Code container -->
+          <div id="qrcode"></div>
+
+          <p class="muted">Use your phone camera to scan the QR code.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I am currently pursuing my Bachelor of Science in Computer Technology at Bowie State University,
+        with a concentration in Internet Technology and Web Services. I am on track to graduate in
+        <strong>December 2025</strong> with a <strong>3.4 GPA</strong>.
+      </p>
+      <p>
+        I also hold an Associate of Applied Science Degree in Cybersecurity from Prince George’s Community College,
+        where I graduated with a <strong>3.2 GPA</strong>.
+      </p>
+
+      <h3>Relevant Coursework</h3>
+      <ul>
+        <li>Computer Networking, Internet Technology, Wireless Networking</li>
+        <li>Linux Operating System, PC Architecture, Client Operating Systems</li>
+        <li>Advanced Secure Coding Using Java, Edge Computing</li>
+        <li>Intrusion Detection &amp; Prevention, Network Security Foundations</li>
+        <li>Database Development, Data Structures, Python Programming</li>
+        <li>Multimedia Application Development, Technical Writing for CS</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Python, Java, HTML, CSS, basic JavaScript</li>
+        <li>TCP/IP, Internet Protocols, Cisco (cables) networking, LAN/WAN</li>
+        <li>AWS Cloud Security (Tenable.io / Tenable.sc)</li>
+        <li>MS Word, Excel, PowerPoint, Google Docs, Adobe software</li>
+        <li>Customer Service, Front Desk Operations, Cash Handling</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <p>Some of my course and personal projects hosted on GitHub:</p>
+      <ul class="projects-list">
+        <li>
+          <a href="https://github.com/elesinmogunbose19-rgb/JulianaPortfolio" target="_blank">
+            🌐 Personal Portfolio Website
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/elesinmogunbose19-rgb/wind-speed-program" target="_blank">
+            🌪️ Wind Speed Reporting Program (Python)
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/elesinmogunbose19-rgb/catering-database" target="_blank">
+            🍽️ Meal Prep/Catering Company Database
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="card">
+      <h2>Resume</h2>
+      <p>You can view or download my most recent resume below:</p>
+      <div class="resume-links">
+        <a class="btn" href="Resume/Juliana_Elesinmogun_Resume.pdf" target="_blank">
+          📄 View Resume
+        </a>
+        <a class="btn outline" href="Resume/Juliana_Elesinmogun_Resume.pdf" download>
+          ⬇️ Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <form id="contactForm" class="contact-form">
+        <label>Name</label>
+        <input id="name" required>
+
+        <label>Email</label>
+        <input id="email" type="email" required>
+
+        <label>Message</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="contactResult" class="muted"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Floating Chatbot Button -->
+  <button id="chat-toggle">💬</button>
+
+  <!-- Chatbot Widget -->
+  <aside id="chat-widget" class="hidden">
+    <div class="chat-header">
+      <strong>Juliana's Assistant</strong>
+      <button id="chat-close">✕</button>
+    </div>
+
+    <div id="chat-messages" class="chat-messages">
+      <div class="bot">
+        <strong>Bot:</strong> Hi! Ask me about Juliana’s skills, education, GPA, or experience.
+      </div>
+    </div>
+
+    <div class="chat-input-row">
+      <input id="chat-input" placeholder="Ask a question...">
+      <button id="chat-send" class="btn">Send</button>
+    </div>
+  </aside>
+
+  <!-- STEP 1: Load QRCode.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
