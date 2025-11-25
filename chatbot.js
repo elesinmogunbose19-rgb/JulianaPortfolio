@@ -18,9 +18,13 @@ function sendMessage() {
 }
 
 function getBotResponse(input) {
-  input = input.toLowerCase();
-  if (input.includes('hello')) return "Hi there! How can I help you today?";
-  if (input.includes('resume')) return "You can view Juliana’s resume in the Resume section!";
-  if (input.includes('contact')) return "You can reach Juliana via her email at Juliana19@gmail.com.";
-  return "I'm not sure about that, but I’m learning!";
+    input = input.toLowerCase();
+
+    if (input.includes('hello')) return "Hi there! How can I help you today?";
+    if (input.includes('resume')) return "You can view Juliana’s resume in the Resume section!";
+    if (input.includes('contact')) return "You can reach Juliana via her email at Juliana19@gmail.com.";
+    
+    return "I'm not sure about that yet. Try asking about her skills, GPA, projects, or experience!";
 }
+
+
