@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (text.includes("email") || text.includes("contact"))
       return "Email Juliana at: Elesinmogunbose19@gmail.com";
 
-    return "I'm not sure about that yet—try asking about her skills, GPA, projects, or experience!";
+    return "I'm not sure about that yet. Try asking about her skills, GPA, projects, or experience!";
   }
 
   chatToggle.addEventListener("click", () => {
@@ -72,3 +72,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
