@@ -380,3 +380,19 @@ li {
     right: 0.8rem;
   }
 }
+.app-link-card {
+  display: inline-block;
+  background-color: #d9a7b0; 
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.app-link-card:hover {
+  background-color: #b98a93;
+}
+
+
