@@ -1,43 +1,116 @@
-# Juliana Elesinmogun – Personal Portfolio
+Juliana Elesinmogun: Personal IT & Cybersecurity Portfolio
 
-This repository contains my personal portfolio website for CTEC, built with **HTML, CSS, and JavaScript**.  
-The site showcases my skills, coursework, projects, resume, and includes an interactive chatbot and QR code.
+Welcome to my personal portfolio!
+This website showcases my academic background, technical projects, cybersecurity experience, and web development skills. It also includes interactive features such as a chatbot and a QR code for mobile access.
 
-## 🔗 Live Site
+Live Website:
+https://elesinmogunbose19-rgb.github.io/JulianaPortfolio/
 
-Once GitHub Pages is enabled, the site will be available at:
+GitHub Repository:
+https://github.com/elesinmogunbose19-rgb/JulianaPortfolio
 
-`https://elesinmogunbose19-rgb.github.io/JulianaPortfolio/`
+Project Overview
 
-## 📂 Sections
+This portfolio was created as part of my final class project. It demonstrates my ability to design, build, and deploy a responsive website using HTML, CSS, and JavaScript, while integrating interactive features such as:
+A working chatbot that answers questions about my skills, experience, and background
+A QR Code that links directly to the website
+A Resume viewer and downloader
+Project showcases with downloadable PDFs
+Clean and professional UI design
+Mobile responsive layout optimized for students, recruiters, and instructors
+Website Features
+Home
 
-- **Home** – Introduction, profile photo, and QR code that links to this portfolio.
-- **About** – Education, GPA, relevant coursework, and technical skills.
-- **Projects** – Links to my GitHub repositories (portfolio, wind speed program, catering database).
-- **Resume** – Viewable and downloadable PDF resume.
-- **Contact** – Simple contact form (demo only).
+Welcome section featuring a personal introduction and a profile photo.
 
-## 🤖 Chatbot
+About
 
-The chatbot is a simple JavaScript keyword-based assistant.  
-It can answer questions about:
+A detailed summary of:
+Educational background
+Skills
+Relevant coursework
+Technical experience
 
-- Who Juliana is
-- Education and degrees
-- GPA and graduation date
-- Skills and coursework
-- Tenable AWS experience
-- DARCARS and Wendy’s work experience
-- Projects and resume
-- Contact information and internship availability
+Projects
 
-The chatbot logic is implemented in `script.js` (function `botReply()`).
+Includes two detailed project showcases:
 
-## 📱 QR Code
+1. John the Ripper Password Cracking Assignment
+Cybersecurity project using Kali Linux
+Password cracking with John the Ripper
+Hash analysis & encrypted message recovery
+PDF: John the Ripper Assignment.pdf
 
-The QR code is generated on the **Home** section using the `qrcodejs` library.  
-It encodes the GitHub Pages URL of this portfolio:
+2. Catering Company Mobile App
+Mobile UI demo
+Database Systems course project
+Nigerian cuisine interface design
+PDF: HeavenlyDelightApp.pdf
 
-```js
-const portfolioURL = "https://elesinmogunbose19-rgb.github.io/JulianaPortfolio/";
+Resume
 
+View PDF resume
+Download with one click
+
+Contact
+
+Working contact form (frontend)
+Fields for name, email, and message
+
+Chatbot Feature
+
+This portfolio includes an interactive chatbot built using JavaScript.
+The bot responds to common questions such as:
+“What is your GPA?”
+“What programming languages do you know?”
+“Tell me about your experience.”
+“What projects have you completed?”
+The chatbot opens from a floating button and appears as an on-page widget.
+
+How it works:
+
+Uses JavaScript event listeners
+Stores questions and answers in a matching dictionary
+Responds instantly without backend services
+Works on both mobile and desktop
+
+QR Code Integration
+
+The homepage displays a QR code that links directly to the portfolio website.
+You can also include this QR code in your resume to make it easier for others to access your portfolio on mobile devices.
+
+How to Run Locally
+Download or clone this repository:
+git clone https://github.com/elesinmogunbose19-rgb/JulianaPortfolio.git
+Open the folder on your computer
+Double-click index.html to open it in your browser
+No server required, this is a 100% static website
+
+Project Structure
+JulianaPortfolio/
+│── index.html
+│── style.css
+│── script.js
+│── chatbot.js
+│── chatbot.css
+│── julianaphoto.JPG
+│── HeavenlyDelightApp.pdf
+│── John the Ripper Assignment.pdf
+│── Juliana_Elesinmogun_Resume.pdf
+└── README.md
+
+Tools & Technologies Used
+
+HTML5
+CSS3
+JavaScript
+QR Code JS Library
+GitHub Pages
+VS Code
+GitHub
+Contact
+
+If you would like to connect or learn more about my work:
+📧 Email: (insert your email here)
+
+🎉 Thank You for Visiting My Portfolio!
