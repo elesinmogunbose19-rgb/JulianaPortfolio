@@ -88,18 +88,18 @@ No server required, this is a 100% static website
 
 Project Structure
 JulianaPortfolio/
-│── index.html
-│── style.css
-│── script.js
-│── chatbot.js
-│── chatbot.css
-│── julianaphoto.JPG
-│── HeavenlyDelightApp.pdf
-│── John the Ripper Assignment.pdf
-│── Juliana_Elesinmogun_Resume.pdf
-└── README.md
+index.html
+style.css
+script.js
+chatbot.js
+chatbot.css
+julianaphoto.JPG
+HeavenlyDelightApp.pdf
+John the Ripper Assignment.pdf
+Juliana_Elesinmogun_Resume.pdf
+README.md
 
-Tools & Technologies Used
+Tools and Technologies Used
 
 HTML5
 CSS3
@@ -114,3 +114,4 @@ If you would like to connect or learn more about my work:
 📧 Email: (insert your email here)
 
 🎉 Thank You for Visiting My Portfolio!
+
