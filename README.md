@@ -40,3 +40,4 @@ It encodes the GitHub Pages URL of this portfolio:
 
 ```js
 const portfolioURL = "https://elesinmogunbose19-rgb.github.io/JulianaPortfolio/";
+
